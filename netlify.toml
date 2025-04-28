@@ -1,3 +1,18 @@
-"scripts": {
-  "build": "npm install hexo-cli -g && hexo generate"
-}
+[build]
+  publish = "public"
+  command = "npx hexo generate"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "http://cukd.org/*"
+  to = "https://www.cukd.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.cukd.org/*"
+  to = "https://www.cukd.org/:splat"
+  status = 301
+  force = true
