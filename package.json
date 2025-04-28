@@ -11,8 +11,8 @@
   "private": true,
   "homepage": "https://github.com/iTimeTraveler/hexo-theme-hipaper",
   "scripts": {
-  "build": "npm install hexo-cli -g && hexo generate"
-}
+    "build": "npm install hexo-cli -g && hexo generate"
+  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "load-grunt-tasks": "~0.2.0",
